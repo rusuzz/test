@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a class="header__logo" href="#">
+              <img src="images/logo.svg" alt="logo" />
+            </a>
+            <ul class="menu">
+              <li>
+                <a href="#" class="menu__link">
+                  <img src="images/person.svg" alt="person" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="menu__link">
+                  <img src="images/heart.svg" alt="heart" />
+                </a>
+              </li>
+              <li>
+                <a href="#" class="menu__link">
+                  <img src="images/bag.svg" alt="bag" />
+                </a>
+              </li>
+            </ul>
+            <button class="burger__btn"><span></span><span></span><span></span></button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <div class="burger__menu">
+            <div class="burger__menu-box">
+              <button class="burger__close-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g id="24 / menu" clip-path="url(#clip0_0_606)">
+                    <g id="Group ">
+                      <line id="Line 11" x1="5.0107" y1="18.2822" x2="18.6467" y2="4.6462" stroke="#333333" />
+                    </g>
+                    <g id="Group _2">
+                      <line
+                        id="Line 11_2"
+                        y1="-0.5"
+                        x2="19.2842"
+                        y2="-0.5"
+                        transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 19 18.6357)"
+                        stroke="#333333"
+                      />
+                    </g>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_0_606">
+                      <rect width="24" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+              <ul class="burger__list">
+                <li>
+                  <a class="burger__menu-link" href="">постельное белье</a>
+                </li>
+                <li>
+                  <a class="burger__menu-link" href="">постельное белье</a>
+                </li>
+                <li>
+                  <a class="burger__menu-link" href="">постельное белье</a>
+                </li>
+                <li>
+                  <a class="burger__menu-link" href="">постельное белье</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal">
+            <div class="modal__box">
+              <button class="modal__close-btn">
+                <svg width="11" height="12" viewBox="0 0 11 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    id="Vector"
+                    d="M10.0026 11.2822L5.50354 6.77901L1.0045 11.2822L0 10.2784L4.50611 5.78223L0 1.28608L1.0045 0.282227L5.50354 4.78544L10.0026 0.289296L11 1.28608L6.50096 5.78223L11 10.2784L10.0026 11.2822Z"
+                    fill="#303030"
+                  />
+                </svg>
+              </button>
+              <h1 class="modal__title">Купить в 1 клик</h1>
+              <form class="modal__form">
+                <input class="modal__input" type="text" placeholder="+ 7 (---) --- -- -- " />
+                <input class="modal__input" type="text" placeholder="Ваше имя" />
+              </form>
+              <div class="modal__line"></div>
+              <p class="modal__text">
+                Нажимая кнопку “Отправить”, я даю согласие на обработку моих персональных данных в соответствии с
+                <a href="#">Условиями конфиденциальности</a>
+              </p>
+              <button class="modal__btn">Отправить</button>
+            </div>
+          </div>
+          <section class="product">
+            <div class="gallery">
+              <ul class="gallery__list">
+                <li class="gallery__item">
+                  <img src="images/gallery_1.jpg" alt="" />
+                </li>
+                <li class="gallery__item">
+                  <img src="images/gallery_2.jpg" alt="" />
+                </li>
+                <li class="gallery__item">
+                  <img src="images/gallery_3.jpg" alt="" />
+                </li>
+                <li class="gallery__item">
+                  <img src="images/gallery_4.jpg" alt="" />
+                </li>
+                <li class="gallery__item">
+                  <img src="images/gallery_5.jpg" alt="" />
+                </li>
+              </ul>
+              <img class="gallery__img" src="images/img_1.jpg" alt="" />
+            </div>
+            <div class="info">
+              <h2 class="info__title">Пижама для девочек</h2>
+              <p class="info__code">Арт. 02765/46</p>
+              <div class="info__reviews">
+                <p class="info__review">Отзывы</p>
+                <img src="images/stars.svg" alt="rating" />
+                <p class="info__review-text">14 отзывов</p>
+                <a href="#">
+                  <img src="images/arrow.svg" alt="arrow" />
+                </a>
+              </div>
+              <div class="info__price">
+                <p class="info__price-main">800 ₽</p>
+                <p class="info__price-initial">1 500 ₽</p>
+                <a href="#">
+                  <img src="images/arrow.svg" alt="arrow" />
+                </a>
+              </div>
+              <div class="info__discount">
+                <button class="info__discount-btn">скидка -47%</button>
+                <button class="info__discount-btn">акция -20%</button>
+              </div>
+              <div class="info__select">
+                <select class="select" name="select-size">
+                  <option value="1">Выбрать размер</option>
+                </select>
+              </div>
+              <a class="info__size" href="#">Определить размер</a>
+              <div class="info__count">
+                <div class="info__count-btn">
+                  <p class="info__count-inc">+</p>
+                  <span class="info__count-res">1</span>
+                  <p class="info__count-dec">-</p>
+                </div>
+                <div class="info__add">
+                  <button class="info__add-btn">Добавить в корзину</button>
+                  <button class="info__add-heart">
+                    <img src="images/heart-white.svg" alt="" />
+                  </button>
+                </div>
+              </div>
+              <a class="info__buy" href="#">Купить в 1 клик</a>
+              <div class="info__line"></div>
+              <ul class="info__menu">
+                <li class="info__link">
+                  <img src="images/desc.svg" alt="desc" />
+                  <a href="#">Описание товара</a>
+                </li>
+                <li class="info__link">
+                  <img src="images/clock.svg" alt="clock" />
+                  <a href="#">Доставка и возврат</a>
+                </li>
+                <li class="info__link">
+                  <img src="images/pay.svg" alt="pay" />
+                  <a href="#">Способы оплаты</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__buyers">
+              <h3 class="footer__title">Покупателям</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Каталог</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Акции</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Бренды</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__about">
+              <h3 class="footer__title">О нас</h3>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a href="#" class="footer__link">О компании</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Новости</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Команда</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__stock">
+              <h3 class="footer__title">Узнайте первыми о новинках и акциях</h3>
+              <form class="footer__form" action="">
+                <input class="footer__input" type="text" placeholder="Адрес электронной почты" />
+                <button class="footer__btn">Подписаться</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="js/main.min.js"></script>
+</html>
